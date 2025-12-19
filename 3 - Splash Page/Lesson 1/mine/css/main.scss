@@ -1,6 +1,5 @@
 :root {
   --background-color: #7700df;
-  --text-color: white;
 }
 
 body {
@@ -23,9 +22,11 @@ body {
 img {
   width: 90px;
 }
+
 .remove-splash {
   transform: translateY(-100%);
 }
+
 .headline-intro {
   transform: translateY(0);
   opacity: 1;
@@ -48,5 +49,6 @@ section {
     transition:
       transform 1s,
       opacity 1s;
+    transition-delay: 0.3s;
   }
 }
